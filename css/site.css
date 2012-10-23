@@ -3,10 +3,26 @@ body{
 font-family: "proxima-nova",sans-serif;
 
 }
-h1{
+h2{
   font-family: "proxima-nova-condensed";
 
 
+}
+#big-demo-text{
+   float: left;
+width: 960px;
+text-align: center;
+padding-top:70px;
+font-size:18px;
+
+}
+#big-demo{
+width:960px;
+margin-left:auto;
+margin-right:auto;
+height:600px;
+background-color:#888   ;
+float:left;
 }
 .hero-unit{
 
