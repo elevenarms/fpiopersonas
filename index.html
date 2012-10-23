@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/site.css" rel="stylesheet">
-        <script type="text/javascript" src="http://use.typekit.net/kgj5oji.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<head>
+  <title>Bootstrap 101 Template</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/site.css" rel="stylesheet">
+  <script type="text/javascript" src="http://use.typekit.net/kgj5oji.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  </head>
-  <body>
-
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
-   <div id="container">
-     
-        <div class="hero-unit">
-
-<div id="header">
-    <a href="#"><img src="img/fplogo.png"></a>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+  <script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://api.filepicker.io/v1/filepicker.js"></script>
+    <script type="text/javascript" src="js/jsfiddle.js"></script>
 
 
-    <div id="header-links">
-    <ul >
+</head>
+<body>
 
-      <li>DOCS</li>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <div id="container">
+
+    <div class="hero-unit">
+
+      <div id="header">
+        <a href="#"><img src="img/fplogo.png"></a>
+
+
+        <div id="header-links">
+          <ul >
+
+            <li>DOCS</li>
             <li>DEMOS</li>
 
-     <li>PRICING</li>
-           <li>OUR CUSTOMERS</li>
+            <li>PRICING</li>
+            <li>OUR CUSTOMERS</li>
 
 
-    </ul>
+          </ul>
 
-  </div>
+        </div>
       </div>
 
       <img id="splash-img" src="img/bnb.png" >
-       <div id="splash-overlay">
+      <div id="splash-overlay">
 
       </div>
-       
-      </div>
-     
-      
-     
+
+
+ <div id="simpleedit" class="editor">filepicker.pick(function(fpfile){
+    console.log(fpfile.url);
+});</div>
+        <div id="convertedit" class="editor">filepicker.pick(function(fpfile){
+    console.log("Resizing...");
+    filepicker.convert(fpfile, {width: 64, height:64},
+        function(new_fpfile){
+            console.log(new_fpfile.url);
+        }
+    );
+});</div>
+    </div>
+
+
+
     
-      <footer>
-      </footer>
+    <footer>
+    </footer>
 
-    </div> <!-- /container -->
-  </body>
+  </div> <!-- /container -->
+</body>
 </html>
