@@ -88,6 +88,18 @@ top: 28%;
     position: relative;
     bottom: 103px;
     left: 61%;
+    font-size: 18px;
+
+}
+#splash-text{
+width: 247px;
+bottom: 37px;
+position: relative;
+left: 59px;
+font-size: 18px;
+}
+#splash-quote{
+    position: :relative;
 
 }
 #splash-overlay {
