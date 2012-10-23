@@ -1,0 +1,59 @@
+body{
+
+	  font-family: "proxima-nova",sans-serif;
+
+}
+
+.hero-unit{
+
+		padding:0px;
+			margin:0px;
+	background-color:#fff;
+
+}
+#header-links{
+
+position: absolute;
+top: 34px;
+margin-left: 4px;
+margin-left: 200px;
+font-family: font-family: "proxima-nova",sans-serif;
+text-shadow: 1px 1px;
+
+}
+#header ul{
+
+	list-style: none;
+	
+
+}
+
+#header li{
+
+	float:left;
+	padding-left:15px;
+
+}
+#header {
+height: 75px;
+width: 960px;
+background-color: #0CF;
+margin-left: auto;
+margin-right: auto;
+}
+
+#splash-img{
+width:100%;
+	padding:0px;
+
+
+}
+#splash-overlay {
+background-color: black;
+opacity: .6;
+height: 100px;
+width: 328px;
+position: relative;
+bottom: 103px;
+left: 61%;
+}
