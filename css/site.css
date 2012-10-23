@@ -5,9 +5,20 @@ font-family: "proxima-nova",sans-serif;
 }
 h2{
   font-family: "proxima-nova-condensed";
-
+  color:#ff3333;
 
 }
+h4{
+
+    color:#00ccff;
+}
+#logo{
+    position:relative;
+    bottom: 7px;
+}
+#login{position: relative;
+left: 500px;
+bottom: 50px;}
 #big-demo-text{
    float: left;
 width: 960px;
