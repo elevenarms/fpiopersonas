@@ -48,19 +48,55 @@
       <div id="splash-overlay">
 
                <img src="img/quote.png">
-        this is the body text
+               <img src="img/airbnb.png">
+               relies on <strong>Filepicker.io</strong> to upload and resize images to power their 1,000,000 listings. See how they do it &rsaquo;
       </div>
       <div id="splash-overlay-body">
 
       </div>
-
-
-<div id="simpleeditedit-wrapper">
- <div id="simpleedit" class="editor">filepicker.pick(function(fpfile){
+          <h2>Upload and Resize Photos</h2>
+          <div class="row">
+              <div class="span4">
+                  <h4>Upload photos</h4>
+                  <p>Users can import photos from their computer, facebook, or wherever their photos live online</p>
+              </div>
+              <div class="span8">
+                <div id="simpleeditedit-wrapper">
+<div id="simpleedit" class="editor">filepicker.pick(function(fpfile){
     console.log(fpfile.url);
 });</div>
-        
-
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="span4">
+                  <h4>Resizing the Images</h4>
+                  <p>Add powerful image processing to your site, no server-side code required</p>
+              </div>
+              <div class="span8">
+                <div id="complexedit-wrapper">
+<div id="convertedit" class="editor">filepicker.pick(function(fpfile){
+    filepicker.convert(fpfile, {width: 128},
+        function(thumbnail) {
+            console.log(thumbnail.url);
+        }
+    );
+});</div>
+               </div>
+              </div>
+          </div>
+          <h3>How AirBnB Uses it</h3>
+          <div>
+              BIG DEMO GOES HERE
+          </div>
+          <div class="row">
+              <div class="span3 offset3">
+                  <button class="btn btn-large">Read the Docs</button>
+              </div>
+              <div class="span3 offset3">
+                  <button class="btn btn-large btn-primary">Sign up</button>
+              </div>
+          </div>
 </div>
     </div>
 
