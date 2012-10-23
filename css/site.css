@@ -4,7 +4,7 @@ font-family: "proxima-nova",sans-serif;
 
 }
 h1{
-font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova-condensed";
 
 
 }
@@ -18,7 +18,7 @@ font-family: "proxima-nova",sans-serif;
 #header-links{
 
   position: absolute;
-top: 34px;
+top: 31px;
 margin-left: 4px;
 margin-left: 200px;
 font-family: "proxima-nova",sans-serif;
@@ -42,7 +42,7 @@ font-size: 15px;
 
 }
 #header {
-    height: 75px;
+    height: 70px;
     width: 960px;
     background-color: #0CF;
         color:white;
@@ -132,14 +132,27 @@ color:white;
     margin-left:auto;
     margin-right:auto;
     width:960px;
+    margin-bottom:150px;
 }
 .demo-step-copy-left{
-    float:left;
-    width:300px;
+   float: left;
+width: 300px;
+margin-right: 20px;
+padding-left:40p1;
 }
 .demo-step-jsfiddle{
     width:500px;
     float:left;
+}
+#intro-header{
+
+    width: 960px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 0px;
+position: relative;
+bottom: 69px;
 }
 
 
