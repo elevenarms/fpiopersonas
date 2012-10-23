@@ -91,6 +91,8 @@ top: 28%;
 
 }
 #splash-overlay {
+      font-family: "proxima-nova-condensed";
+
  height: 100px;
 width: 328px;
 position: relative;
