@@ -157,10 +157,11 @@ color:white;
     color: #000;
     float: right;
     border-radius: 6px;
-    background: #99F;
+    background: #ffcc02;
     padding: 1px 8px;
     line-height: 18px;
     cursor: pointer;
+ 
 }
 #simpleedit-wrapper{
 
